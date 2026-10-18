@@ -17,6 +17,7 @@ from deepeval.test_case import LLMTestCase, ToolCall
 from deepeval import evaluate
 from dotenv import load_dotenv
 
+
 load_dotenv()
 
 for golden in dataset.goldens:
